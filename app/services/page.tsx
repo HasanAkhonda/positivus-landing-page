@@ -8,6 +8,7 @@ import Testimonials from '@/components/Testimonials'
 import CaseStudies from '@/components/CaseStudies'
 import OtherServices from '@/components/OtherServices'
 import ElevateRanking from '@/components/ElevateRanking'
+import SEOprocess from '@/components/SEOprocess'
 
 
 const page = () => {
@@ -15,6 +16,7 @@ const page = () => {
         <div>
             <ServiceHero />
             <SearchOptimization />
+            <SEOprocess/>
             <UseCase/>
              <OtherServices />
             <ElevateRanking/>
