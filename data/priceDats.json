@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Basic Plan",
+    "price": 500,
+    "description": "",
+    "features": [
+      "Website optimization",
+      "Social media setup and strategy (one platform)",
+      "Monthly progress report",
+      "Email support",
+      "Basic competitor analysis",
+      "Initial SEO audit"
+    ],
+    "popular": false,
+    "action": "Get Started",
+    "quote": "Request a quote"
+  },
+  {
+    "title": "Pro Plan",
+    "price": 1000,
+    "description": "",
+    "features": [
+      "Includes all from the Basic Plan",
+      "Social media growth and management (up to 3)",
+      "PPC ad campaign management",
+      "Email lead generation",
+      "Ongoing SEO improvements",
+      "Monthly content recommendations"
+    ],
+    "popular": true,
+    "action": "Get Started",
+    "quote": "Request a quote"
+  },
+  {
+    "title": "Elite Plan",
+    "price": 2000,
+    "description": "",
+    "features": [
+      "Includes all from the Pro Plan",
+      "Website design and development",
+      "Comprehensive SEO strategy",
+      "Social media paid and organic strategy",
+      "In-depth marketing strategy",
+      "Comprehensive reporting and analysis"
+    ],
+    "popular": false,
+    "action": "Get Started",
+    "quote": "Request a quote"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "slug": "getting-started-with-nextjs",
+    "type": "Article",
+    "title": "Getting Started with Next.js",
+    "summary": "Learn the basics of Next.js and build your first modern web app using React.",
+    "pubDate": "2024-12-15",
+    "author": "John Doe",
+    "authImage": "/images/authors/john.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "why-tailwind-css-is-awesome",
+    "type": "Article",
+    "title": "Why Tailwind CSS is Awesome",
+    "summary": "Explore how Tailwind CSS simplifies your workflow and improves design consistency.",
+    "pubDate": "2025-01-10",
+    "author": "Jane Smith",
+    "authImage": "/images/authors/jane.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "improve-performance-in-nextjs",
+    "type": "Video",
+    "title": "Improve Performance in Next.js",
+    "summary": "Performance tuning tips and caching strategies to boost your Next.js app.",
+    "pubDate": "2025-03-05",
+    "author": "Alex Lee",
+    "authImage": "/images/authors/alex.jpg"
+  }
+]
