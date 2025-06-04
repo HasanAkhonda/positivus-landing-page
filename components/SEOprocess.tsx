@@ -1,7 +1,8 @@
 import React from 'react'
 import Section from './Section'
 import SectionTitle from './SectionTitle'
-import sqIcon from '../public/pics/SqIcon.png'
+import sqIcon from '../public/SqIconBlack.svg'
+import Image from 'next/image'
 
 
 const processes = [
@@ -50,8 +51,19 @@ const SEOprocess = () => {
                     {processes.map((process, id) => (
                         <div className='flex bg-[#f3f3f3] rounded-[55px] p-10 gap-10'>
                             {/* logo */}
-                            <div className="flex items-center p-5 bg-[url('../public/pics/SqIcon.png')] bg-cover bg-center ">
-                                <span className="hidden sm:block sm:text-6xl text-[#b9ff66] ">0{process.id}</span>
+                            <div className=" relative hidden sm:flex items-center p-7 ">
+                                <svg
+                                    className="absolute right-2.5 w-[110px] h-[110px]"
+                                    viewBox="0 0 36 36"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M17.9986 5.53472L35.5997 0.349121L30.464 18.0001L35.5997 35.6012L17.9986 30.4655L0.347656 35.6012L5.53325 18.0001L0.347656 0.349121L17.9986 5.53472Z"
+                                        fill="black"
+                                    />
+                                </svg>
+                                <span className=" z-100 hidden sm:block sm:text-6xl text-[#b9ff66] ">0{process.id}</span>
                             </div>
                             {/* process content */}
                             <div className='flex flex-col gap-6'>
