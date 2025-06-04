@@ -6,6 +6,8 @@ import ServiceHero from '@/components/ServiceHero'
 import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
 import CaseStudies from '@/components/CaseStudies'
+import OtherServices from '@/components/OtherServices'
+import ElevateRanking from '@/components/ElevateRanking'
 
 
 const page = () => {
@@ -14,10 +16,8 @@ const page = () => {
             <ServiceHero />
             <SearchOptimization />
             <UseCase/>
-            <CaseStudies />
-            <Testimonials />
-            <Services />
-            <JoinTeam />
+             <OtherServices />
+            <ElevateRanking/>
 
         </div>
     )
