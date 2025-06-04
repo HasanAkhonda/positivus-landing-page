@@ -16,7 +16,7 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body>
+      <body className='font-[Grotesk] scroll-smooth'>
         <Navbar />
         {children}
         <Footer />

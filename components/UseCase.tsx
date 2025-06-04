@@ -1,10 +1,9 @@
 'use client';
 
 import React from 'react';
-import SectionTitle from '../components/SectionTitle';
-import Card from '../components/ui/card';
-import larrow from '@/assets/icon3.svg';
-import Image from 'next/image';
+import SectionTitle from './SectionTitle';
+import Card from './ui/card';
+import CaseCard from './ui/CaseCard'; // ✅ Import here
 
 const cards = [
   {
@@ -24,31 +23,18 @@ const cards = [
   },
 ];
 
-const Cases = () => {
+const UseCase = () => {
   return (
     <section id="cases" className="container py-16 scroll-mt-32 p-4">
       <SectionTitle
-        sectionTitle="Case Studies"
+        sectionTitle="Use Case"
         description="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
       />
 
-      <div className="flex flex-col lg:flex-row justify-between  bg-dark text-gray rounded-[45px] p-1 gap-6">
+      <div className="flex flex-col lg:flex-row justify-between bg-dark text-gray rounded-[45px] p-1 gap-6">
         {cards.map((card, index) => (
           <Card key={index}>
-            <div className="flex p-[60px] h-full  rounded-[45px] m-[1px]">
-              <div className="flex flex-col gap-5">
-                <p>{card.title}</p>
-                <a
-                  href={card.link}
-                  className="flex items-center gap-[15px]"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="text-green">Case Info</span>
-                  <Image src={larrow} alt="Arrow icon" width={20} height={20} />
-                </a>
-              </div>
-            </div>
+            <CaseCard title={card.title} link={card.link} />
           </Card>
         ))}
       </div>
@@ -56,4 +42,4 @@ const Cases = () => {
   );
 };
 
-export default Cases;
+export default UseCase;

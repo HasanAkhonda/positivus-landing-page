@@ -20,12 +20,12 @@ const SplitHero = ({ id, image, title, description, reverse = false }: SplitHero
           }`}
         >
           {/* Image */}
-          <div className="flex items-center py-5 md:w-6/12">
+          <div className="flex items-center py-5 md:w-5/12">
             <Image src={image} alt="Hero Illustration" className="rounded-4xl" priority />
           </div>
 
           {/* Text */}
-          <div className="row items-center py-5 md:w-6/12 md:pb-20 md:pt-10">
+          <div className="row items-center py-5 md:w-7/12 md:pb-20 md:pt-10">
             <div className="text-left space-y-3">
               <h1 className="text-4xl font-medium leading-none md:text-6xl text-center md:text-left">
                 {title}
