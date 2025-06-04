@@ -2,10 +2,12 @@ import React from 'react'
 import Section from './Section'
 import Image from 'next/image'
 import DP1 from '../public/team/t1.png'
-
+import sqIcon from '../public/pics/SqIcon.png'
+ 
+ 
 const BlogContent = () => {
     return (
-        <div className="container  pt-12 ">
+        <div className="container  pt-12 pb-8 md:pb-0 ">
             <Section>
                 {/*profile title picture bar*/}
                 <div className='w-full flex justify-between '>
@@ -22,7 +24,7 @@ const BlogContent = () => {
                 </div>
                 <div className='w-full h-[1px] bg-black mt-7'></div>
                 {/*Contents*/}
-                <div className='lg:max-w-[900px] w-full space-y-[50px] mt-12 mx-auto'>
+                <div className='lg:max-w-[900px] w-full space-y-[50px] mt-12 mx-auto '>
                     <p className='font-semibold text-lg'>
                         In the ever-evolving digital landscape, businesses are faced with an important questions: should they invest in pay-per-click (PPC) advertising or focus on organic marketing strategies? While both approaches have their merits, choosing the right one depends on your goals, budget, and timeline. Let's dive into the strengths, challenges, and real-world applications of PPC and organitc marketing to help you make an informed decision.
                     </p>
@@ -51,7 +53,7 @@ const BlogContent = () => {
                         </p>
                     </div>
                 </div>
-                <div className='  w-full space-y-[50px] mt-12 mx-auto'>
+                <div className='  w-full space-y-[50px] mt-12 justify-center flex flex-col mx-auto mb-2'>
                     <h2 className=' lg:max-w-[900px] mx-auto font-bold text-3xl'>By the Numbers: Facts About PPC and Organic Marketing</h2>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-6'>
                         <div className='md:col-span-2 bg-white border-2 border-b-6 rounded-3xl p-8'>
@@ -100,6 +102,10 @@ const BlogContent = () => {
                             you're working with a tight deadline or launching a new service, PPC can deliver immediate results. On the other hand, if you're focused on bulliding a loyal audience and maintaining a steady flow of leads, organic marketing is your best bet.
                             <br /><br />By understanding the strengths and limitations of both strategies, you can create a marketing plan that aligns with your goals, budget, and target audience. Ready to take your next step? Start buliding a strategy that drives results today
                         </p>
+                    </div>
+                    <div className='mx-auto'>
+                        <Image src={sqIcon} alt={'end of content icon'} width={24}
+                        height={24}/>
                     </div>
                 </div>
 

@@ -25,7 +25,7 @@ const BoxGrid = ({
 
     <div>
       {/* Mobile View */}
-      <div className="sm:hidden space-y-6">
+      <div className="sm:hidden space-y-6 mb-2">
         {items.map((item, idx) => (
           <Card key={idx} isUnderline={true}>
             <ServiceCard {...item} linkText={linkText} linkHref={linkHref} icon={icon} />
