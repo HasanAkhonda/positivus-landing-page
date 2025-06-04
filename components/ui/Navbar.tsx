@@ -7,7 +7,7 @@ import logo from '@/assets/brand.svg'
 
 const menuitems = [
   { href: '/about', label: 'About us' },
-  { href: '/#services', label: 'Services' },
+  { href: '/services', label: 'Services' },
   { href: '/cases', label: 'Use Cases' },
   { href: '/pricing', label: 'Pricing' },
   { href: '/blog', label: 'Blog' },

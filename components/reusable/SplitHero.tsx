@@ -12,7 +12,7 @@ interface SplitHeroProps {
 
 const SplitHero = ({ id, image, title, description, reverse = false }: SplitHeroProps) => {
   return (
-    <div className="lg:px-5 py-12 container md:py-24">
+    <div className="  py-12 container md:py-24">
       <Section id={id}>
         <div
           className={`relative flex flex-col md:bg-[#f3f3f3] rounded-4xl items-center md:flex-row ${

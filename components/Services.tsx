@@ -1,15 +1,15 @@
 'use client'
 
 import React from 'react'
-import ServiceCard from '../ui/ServiceCard' // Adjust if path differs
-import ui from '../../public/pics/card-pic6.png'
-import frontend from '../../public/pics/card-pic2.png'
-import ecommerce from '../../public/pics/card-pic5.png'
-import web from '../../public/pics/card-pic1.png'
-import cms from '../../public/pics/card-pic4.png'
-import app from '../../public/pics/card-pic3.png'
-import SectionTitle from '../SectionTitle'
-import Image from 'next/image'
+ import ui from '../public/pics/card-pic6.png'
+import frontend from '../public/pics/card-pic2.png'
+import ecommerce from '../public/pics/card-pic5.png'
+import web from '../public/pics/card-pic1.png'
+import cms from '../public/pics/card-pic4.png'
+import app from '../public/pics/card-pic3.png'
+ import Image from 'next/image'
+import ServiceCard from './ui/ServiceCard'
+import SectionTitle from './SectionTitle'
 
 // ✅ Example: Replace these with real SVG/Image imports like above
 const services = [

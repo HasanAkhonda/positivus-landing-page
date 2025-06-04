@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ isUnderline, children }) => {
     <div
       className={`${
         isUnderline
-          ? 'rounded-[45px] border border-dark shadow-[0px_5px_0px_#191a23]'
+          ? 'rounded-[45px] border border-dark mb-2  shadow-[0px_5px_0px_#191a23]'
           : 'rounded-[45px]'
       }`}
     >

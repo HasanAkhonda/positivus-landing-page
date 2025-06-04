@@ -4,7 +4,7 @@ import Cases from '@/components/Cases';
 import Contact from '@/components/Contact';
 import Hero from '@/components/hero/Hero';
 import Process from '@/components/Process';
-import Services from '@/components/services/Services';
+import Services from '@/components/Services';
  import Sponsors from '@/components/Sponsors';
 import Team from '@/components/team/Team';
 import Testimonials from '@/components/Testimonials';
