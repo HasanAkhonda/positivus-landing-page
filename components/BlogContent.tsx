@@ -3,8 +3,8 @@ import Section from './Section'
 import Image from 'next/image'
 import DP1 from '../public/team/t1.png'
 import sqIcon from '../public/pics/SqIcon.png'
- 
- 
+
+
 const BlogContent = () => {
     return (
         <div className="container  pt-12 pb-8 md:pb-0 ">
@@ -52,10 +52,10 @@ const BlogContent = () => {
                             For small businesses with limited resources, this dilemma can feel like an impossible balancing act. Do you play the long game with organic strategies or opt for quick wins with PPC?
                         </p>
                     </div>
+                    <h2 className=' lg:max-w-[900px] testart  font-bold text-3xl'>By the Numbers: Facts About PPC and Organic Marketing</h2>
                 </div>
-                <div className='  w-full space-y-[50px] mt-12 justify-center flex flex-col mx-auto mb-2'>
-                    <h2 className=' lg:max-w-[900px] mx-auto font-bold text-3xl'>By the Numbers: Facts About PPC and Organic Marketing</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-5 gap-6'>
+                <div>
+                    <div className='grid grid-cols-1 md:grid-cols-5 my-[30px] gap-6'>
                         <div className='md:col-span-2 bg-white border-2 border-b-6 rounded-3xl p-8'>
                             <p>Business earn an average of</p>
                             <span className="mr-2 text-3xl  ">$2 for every $1 spent</span>
@@ -83,6 +83,10 @@ const BlogContent = () => {
                             PPC and organic marketing have proven effective in different scenarios, and real-world examples highlight their impact. A local restaurant, for instance, leveraged Google Ads to target the search term "best Italian food near me," which led to a remarkable 120% increase in reservations within just two weeks. Similarly, a B2B Saas company focused on organic marketing by investing in SEO and blog content. This strategic approach helped them rank for competitive keywords and boosted their website traffic by 200% over six months. Some businesses find success by combining both strategies, las an e-commerce retaller that launched a targeted PPC campaign for seasonal sales while simultaneously optimizing product pages for organic search. This hybrid approach resulted in a 30% higher retum on investment compared to relying solely on PPC advertising.
                         </p>
                     </div>
+                </div>
+
+                <div className='  w-full space-y-[50px] mt-12 justify-center items-center flex flex-col mx-auto mb-2'>
+
                     <div className='space-y-[30px] lg:max-w-[900px] mx-auto '>
                         <h2 className='font-bold text-3xl'>Key Takeaways for Your Marketing Strategy</h2>
                         <li className='  text-lg'>
@@ -105,7 +109,7 @@ const BlogContent = () => {
                     </div>
                     <div className='mx-auto'>
                         <Image src={sqIcon} alt={'end of content icon'} width={24}
-                        height={24}/>
+                            height={24} />
                     </div>
                 </div>
 
